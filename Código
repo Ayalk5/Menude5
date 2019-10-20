@@ -1,0 +1,63 @@
+mport java.io.*;	
+public class MenudeC {
+	int op,c,tp;
+	int p1=50, p2=100, p3=150,pa4=200,pa5=250;
+	public int op1() {
+		System.out.println("Base para teléfono.");
+		System.out.println("Ingrese cantidad a comprar:");
+		ob.c=Integer.parseInt(entrada.readLine());
+		tp=c*p1;
+		return tp;
+	}
+	public int op2() {
+		System.out.println("Repetidor.");
+		System.out.println("Ingrese cantidad a comprar:");
+		ob.c=Integer.parseInt(entrada.readLine());
+		tp=c*p2;
+		return tp;
+	}
+public int op3() {
+		System.out.println("Conector RJ-45.");
+		System.out.println("Ingrese cantidad a comprar:");
+		ob.c=Integer.parseInt(entrada.readLine());
+		tp=c*p3;
+		return tp;
+	}
+public int op4() {
+		System.out.println("Cable de red..");
+		System.out.println("Ingrese cantidad a comprar:");
+		ob.c=Integer.parseInt(entrada.readLine());
+		tp=c*p4;
+		return tp;
+	}
+public int op2() {
+		System.out.println("Repetidor.");
+		System.out.println("Ingrese cantidad a comprar:");
+		ob.c=Integer.parseInt(entrada.readLine());
+		tp=c*p2;
+		return tp;
+	}
+	public static void main (String [] args) throws IOException{
+		BufferedReader entrada = new BufferedReader (new InputStreamReader (System.in));
+		MenudeC ob=new MenudeC ();
+		System.out.println("Bienvenido, seleccione que desea comprar.");
+		System.out.println("1.Base para teléfono.");
+		System.out.println("2.Repetidor.");
+		System.out.println("3.Conector RJ-45.");
+		System.out.println("4.Cable de red.");
+		System.out.println("5.Teléfono nuevo.");
+		ob.op=Integer.parseInt(entrada.readLine());
+		switch (op) {
+		case 1 : 
+			ob.op1();
+		case 2: 
+			ob.op2();
+		case 3:
+	ob.op3()	;
+case 4:
+ob.op4();
+case 5:
+ob.op5();
+}
+		
+}
